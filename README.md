@@ -15,9 +15,15 @@ O projeto tem como finalidade apresentar, de forma interativa, exemplos de cria�
 
 ## 🧰 Funcionalidades Demonstradas
 
-- Criação de tabelas (`CREATE TABLE`)
-- Inserção de registros (`INSERT INTO`)
-- Consulta de dados (`SELECT`)
+- Criação de tabelas: CREATE TABLE para estruturar bases de dados.
+- Inserção de registros: INSERT INTO para popular tabelas com dados de exemplo.
+- Consultas de dados: SELECT para extrair informações.
+- Filtragem: WHERE para selecionar dados específicos.
+- Ordenação: ORDER BY para organizar os resultados.
+- Agrupamento de dados: GROUP BY com funções agregadas (COUNT, SUM, AVG) para análises resumidas.
+- Execução de SQL no notebook: %%sql para rodar queries diretamente em células Jupyter.
+- Subconsultas: utilização de queries dentro de outras queries para resultados mais complexos.
+- Junções: JOIN para combinar dados de múltiplas tabelas.
 - Execução de queries SQL diretamente em células do notebook com `%%sql`
 
 ## 🚀 Como Executar
